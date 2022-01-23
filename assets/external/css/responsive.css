@@ -1,0 +1,87 @@
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 993px) {
+
+}
+@media (max-width: 992px) {
+    .list-group-item{
+        padding: 0.25rem;
+    }
+    h4, .h4{
+        font-size: 1.2rem;
+    }
+    .sticky-top{
+        position: inherit;
+    }
+    .uaccount{
+        right: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .h-md-250 {
+        height: 250px;
+    }
+    h3, .h3{
+        font-size: 1.4rem;
+    }
+    h4, .h4{
+        font-size: 1.2rem;
+    }
+    .uaccount{
+        right: 0;
+    }
+    .tophideme{
+        display: block;
+    }
+    .topshowme{
+        display: none;
+    }
+    .blog-footer > .d-sm-inline{
+        bottom: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2, .h2{
+        font-size: 1.5rem;
+    }
+    .display-4 {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .mycart{
+        display: none;
+    }
+    .blog-post-title{
+        font-size: 1.5rem;
+    }
+    .pinsign{
+        top: 3px;
+        right: 3px;
+        height: 20px;
+    }
+    .navbar{
+        padding: 0.25rem 0;
+    }
+    .blog-post{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mt-xs-2{
+        margin-top: 0.5rem;
+    }
+    .selectnews .media .small{
+        font-size: 1rem;
+    }
+    .mycartb{
+        padding: 0.25rem 0.5rem!important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .myhidemd{
+        display: none;
+    }
+}
